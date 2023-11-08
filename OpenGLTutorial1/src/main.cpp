@@ -1,6 +1,6 @@
 #include <iostream>
-#include <GLFW/glfw3.h>
 #include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
 using namespace std;
 
@@ -38,6 +38,7 @@ int main() {
 		glfwPollEvents();
 	}
 
+	glfwTerminate();
 	return 0;
 }
 
